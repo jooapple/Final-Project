@@ -10,7 +10,9 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         VStack {
-           Text("final project")
+            Color(red:12/256, green:36/256, blue:77/256)
+                .ignoresSafeArea()
+            Image("flag")
         }
     }
 }
