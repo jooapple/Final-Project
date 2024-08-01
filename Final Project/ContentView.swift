@@ -21,14 +21,14 @@ struct ContentView: View {
                 Text("DemocraTECH")
                     .font(Font.custom("PlayfairDisplay-Bold", size:55))
                     .foregroundColor(Color.white)
-                    .offset(y:-80)
+                    .offset(y:-110)
                 VStack{
                     //Description
                     Text("Take the first step in being an educated voter.\n Click to explore more")
                         .foregroundColor(Color.white)
                         .font(Font.custom("PlayfairDisplay-Regular", size:15))
                         .multilineTextAlignment(.center)
-                        .offset(y:50)
+                        .offset(y:170)
                     //Court Cases + Representatives button
                     HStack{
                         //Court Cases button + text
@@ -48,7 +48,7 @@ struct ContentView: View {
                         //Representatives button + text
                         VStack{
                             NavigationLink(destination: Representatives()){
-                                Image("person")
+                                Image("mag")
                                     .resizable()
                                     .aspectRatio(contentMode: .fit)
                                     .frame(width:100, height:100)
@@ -61,9 +61,54 @@ struct ContentView: View {
                         .offset(x:50,y:50)
 
                     }
+                    .offset(y:120)
+                    //About us button
                     HStack{
-                        
+                        VStack{
+                            NavigationLink(destination: About()){
+                                Image("person")
+                                    .resizable()
+                                    .aspectRatio(contentMode: .fit)
+                                    .frame(width:100, height:100)
+                            }
+                                                        Text("About us")
+                                .foregroundColor(Color.white)
+                                .font(Font.custom("PlayfairDisplay-Regular", size:20))
+                                
+                        }
+                        .offset(y:80)
                     }
+                    .offset(y:80)
+                    //Presidential election + resources button
+                    HStack{
+                        VStack{
+                         NavigationLink(destination: Representatives()){
+                             Image("vote")
+                                 .resizable()
+                                 .aspectRatio(contentMode: .fit)
+                                 .frame(width:100, height:100)
+                         }
+                                                     Text("Election")
+                             .foregroundColor(Color.white)
+                             .font(Font.custom("PlayfairDisplay-Regular", size:20))
+                             
+                     }
+                        .offset(x:-110,y:150)
+                        VStack{
+                            NavigationLink(destination: Representatives()){
+                                Image("news")
+                                    .resizable()
+                                    .aspectRatio(contentMode: .fit)
+                                    .frame(width:100, height:100)
+                            }
+                                                        Text("Resources")
+                                .foregroundColor(Color.white)
+                                .font(Font.custom("PlayfairDisplay-Regular", size:20))
+                                
+                        }
+                        .offset(x:10,y:150)
+                    }
+                    .offset(x:50)
                 }
             }
         }

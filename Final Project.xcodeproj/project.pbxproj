@@ -11,6 +11,10 @@
 		BD0E416D2C5A93120041086B /* Court Cases.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD0E416C2C5A93120041086B /* Court Cases.swift */; };
 		BD0E416F2C5AB9AA0041086B /* Representatives.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD0E416E2C5AB9A90041086B /* Representatives.swift */; };
 		BD0E41702C5AF1900041086B /* PlayfairDisplay-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BD0E416B2C5A91F50041086B /* PlayfairDisplay-Bold.ttf */; };
+		BD324A182C5B0560000665E7 /* trumpUS.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD324A172C5B0560000665E7 /* trumpUS.swift */; };
+		BD324A1A2C5B0581000665E7 /* fischer.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD324A192C5B0581000665E7 /* fischer.swift */; };
+		BD324A1C2C5B058D000665E7 /* marbury.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD324A1B2C5B058D000665E7 /* marbury.swift */; };
+		BD324A1E2C5B0595000665E7 /* Roe.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD324A1D2C5B0595000665E7 /* Roe.swift */; };
 		BD530F122C540D50004BBABC /* Final_ProjectApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD530F112C540D50004BBABC /* Final_ProjectApp.swift */; };
 		BD530F142C540D50004BBABC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD530F132C540D50004BBABC /* ContentView.swift */; };
 		BD530F162C540D52004BBABC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD530F152C540D52004BBABC /* Assets.xcassets */; };
@@ -25,6 +29,10 @@
 		BD0E416B2C5A91F50041086B /* PlayfairDisplay-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PlayfairDisplay-Bold.ttf"; sourceTree = "<group>"; };
 		BD0E416C2C5A93120041086B /* Court Cases.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Court Cases.swift"; sourceTree = "<group>"; };
 		BD0E416E2C5AB9A90041086B /* Representatives.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Representatives.swift; sourceTree = "<group>"; };
+		BD324A172C5B0560000665E7 /* trumpUS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = trumpUS.swift; sourceTree = "<group>"; };
+		BD324A192C5B0581000665E7 /* fischer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fischer.swift; sourceTree = "<group>"; };
+		BD324A1B2C5B058D000665E7 /* marbury.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = marbury.swift; sourceTree = "<group>"; };
+		BD324A1D2C5B0595000665E7 /* Roe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Roe.swift; sourceTree = "<group>"; };
 		BD530F0E2C540D50004BBABC /* Final Project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Final Project.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD530F112C540D50004BBABC /* Final_ProjectApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Final_ProjectApp.swift; sourceTree = "<group>"; };
 		BD530F132C540D50004BBABC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -70,7 +78,11 @@
 				BD530F112C540D50004BBABC /* Final_ProjectApp.swift */,
 				BD530F132C540D50004BBABC /* ContentView.swift */,
 				BD0E416E2C5AB9A90041086B /* Representatives.swift */,
+				BD324A172C5B0560000665E7 /* trumpUS.swift */,
 				BD0E416C2C5A93120041086B /* Court Cases.swift */,
+				BD324A1D2C5B0595000665E7 /* Roe.swift */,
+				BD324A1B2C5B058D000665E7 /* marbury.swift */,
+				BD324A192C5B0581000665E7 /* fischer.swift */,
 				BDAA75AB2C596AA7003C4BAE /* About.swift */,
 				BD530F152C540D52004BBABC /* Assets.xcassets */,
 				BD530F172C540D52004BBABC /* Preview Content */,
@@ -158,9 +170,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BD324A182C5B0560000665E7 /* trumpUS.swift in Sources */,
+				BD324A1E2C5B0595000665E7 /* Roe.swift in Sources */,
 				BD0E416F2C5AB9AA0041086B /* Representatives.swift in Sources */,
+				BD324A1C2C5B058D000665E7 /* marbury.swift in Sources */,
 				BD0E416D2C5A93120041086B /* Court Cases.swift in Sources */,
 				BD530F142C540D50004BBABC /* ContentView.swift in Sources */,
+				BD324A1A2C5B0581000665E7 /* fischer.swift in Sources */,
 				BDAA75AC2C596AA7003C4BAE /* About.swift in Sources */,
 				BD530F122C540D50004BBABC /* Final_ProjectApp.swift in Sources */,
 			);

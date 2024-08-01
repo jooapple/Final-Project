@@ -99,7 +99,6 @@ struct Court_Cases: View {
         }
       }
     }
-}
 
 #Preview {
     Court_Cases()

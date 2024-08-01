@@ -16,7 +16,7 @@ struct About: View {
           VStack {
             // Title
             Text("About us")
-                  .font(Font.custom("PlayfairDisplay-Regular", size:55))
+                  .font(Font.custom("PlayfairDisplay-Bold", size:55))
               .bold()
               .foregroundColor(.white)
               .padding(.top, 30)
@@ -24,7 +24,7 @@ struct About: View {
             // Subtitle
             HStack {
               Text("Our Purpose")
-                    .font(Font.custom("PlayfairDisplay-Regular", size:25))
+                    .font(Font.custom("PlayfairDisplay-Bold", size:25))
                 .foregroundColor(.white)
                 .offset(x:30)
                 .padding(.leading, 16)
@@ -52,7 +52,7 @@ struct About: View {
             Spacer()
             HStack {
               Text("Our Team")
-                    .font(Font.custom("PlayfairDisplay-Regular", size:25))
+                    .font(Font.custom("PlayfairDisplay-Bold", size:25))
                 .foregroundColor(.white)
                 .offset(x:30)
                 .offset(y:-15)
