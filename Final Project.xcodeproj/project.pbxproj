@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		BD0791082C5A85B000A3C090 /* Playfair_Display in Resources */ = {isa = PBXBuildFile; fileRef = BD0791072C5A85B000A3C090 /* Playfair_Display */; };
+		BD099C912C5BE35900069709 /* resources.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD099C902C5BE35800069709 /* resources.swift */; };
 		BD0E416D2C5A93120041086B /* Court Cases.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD0E416C2C5A93120041086B /* Court Cases.swift */; };
 		BD0E416F2C5AB9AA0041086B /* Representatives.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD0E416E2C5AB9A90041086B /* Representatives.swift */; };
 		BD0E41702C5AF1900041086B /* PlayfairDisplay-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BD0E416B2C5A91F50041086B /* PlayfairDisplay-Bold.ttf */; };
@@ -19,12 +19,13 @@
 		BD530F142C540D50004BBABC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD530F132C540D50004BBABC /* ContentView.swift */; };
 		BD530F162C540D52004BBABC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD530F152C540D52004BBABC /* Assets.xcassets */; };
 		BD530F192C540D52004BBABC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD530F182C540D52004BBABC /* Preview Assets.xcassets */; };
+		BD5963E52C5BFB2D00B50C1D /* election.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD5963E42C5BFB2D00B50C1D /* election.swift */; };
 		BDAA75AC2C596AA7003C4BAE /* About.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDAA75AB2C596AA7003C4BAE /* About.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		BD0790F42C5A81B400A3C090 /* Final-Project-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Final-Project-Info.plist"; sourceTree = SOURCE_ROOT; };
-		BD0791072C5A85B000A3C090 /* Playfair_Display */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Playfair_Display; sourceTree = "<group>"; };
+		BD099C902C5BE35800069709 /* resources.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = resources.swift; sourceTree = "<group>"; };
 		BD0E416A2C5A90A20041086B /* PlayfairDisplay-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PlayfairDisplay-Regular.ttf"; sourceTree = "<group>"; };
 		BD0E416B2C5A91F50041086B /* PlayfairDisplay-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PlayfairDisplay-Bold.ttf"; sourceTree = "<group>"; };
 		BD0E416C2C5A93120041086B /* Court Cases.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Court Cases.swift"; sourceTree = "<group>"; };
@@ -38,6 +39,7 @@
 		BD530F132C540D50004BBABC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		BD530F152C540D52004BBABC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BD530F182C540D52004BBABC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BD5963E42C5BFB2D00B50C1D /* election.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = election.swift; sourceTree = "<group>"; };
 		BDAA75AB2C596AA7003C4BAE /* About.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = About.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -73,10 +75,11 @@
 			children = (
 				BD0E416A2C5A90A20041086B /* PlayfairDisplay-Regular.ttf */,
 				BD0E416B2C5A91F50041086B /* PlayfairDisplay-Bold.ttf */,
-				BD0791072C5A85B000A3C090 /* Playfair_Display */,
 				BD0790F42C5A81B400A3C090 /* Final-Project-Info.plist */,
 				BD530F112C540D50004BBABC /* Final_ProjectApp.swift */,
 				BD530F132C540D50004BBABC /* ContentView.swift */,
+				BD5963E42C5BFB2D00B50C1D /* election.swift */,
+				BD099C902C5BE35800069709 /* resources.swift */,
 				BD0E416E2C5AB9A90041086B /* Representatives.swift */,
 				BD324A172C5B0560000665E7 /* trumpUS.swift */,
 				BD0E416C2C5A93120041086B /* Court Cases.swift */,
@@ -159,7 +162,6 @@
 				BD0E41702C5AF1900041086B /* PlayfairDisplay-Bold.ttf in Resources */,
 				BD530F192C540D52004BBABC /* Preview Assets.xcassets in Resources */,
 				BD530F162C540D52004BBABC /* Assets.xcassets in Resources */,
-				BD0791082C5A85B000A3C090 /* Playfair_Display in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -177,7 +179,9 @@
 				BD0E416D2C5A93120041086B /* Court Cases.swift in Sources */,
 				BD530F142C540D50004BBABC /* ContentView.swift in Sources */,
 				BD324A1A2C5B0581000665E7 /* fischer.swift in Sources */,
+				BD099C912C5BE35900069709 /* resources.swift in Sources */,
 				BDAA75AC2C596AA7003C4BAE /* About.swift in Sources */,
+				BD5963E52C5BFB2D00B50C1D /* election.swift in Sources */,
 				BD530F122C540D50004BBABC /* Final_ProjectApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

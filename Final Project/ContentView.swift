@@ -19,9 +19,10 @@ struct ContentView: View {
                 Spacer()
                 //Title
                 Text("DemocraTECH")
-                    .font(Font.custom("PlayfairDisplay-Bold", size:55))
+                    .font(Font.custom("PlayfairDisplay-Bold", size:50))
                     .foregroundColor(Color.white)
                     .offset(y:-110)
+                    
                 VStack{
                     //Description
                     Text("Take the first step in being an educated voter.\n Click to explore more")
@@ -39,6 +40,8 @@ struct ContentView: View {
                                     .aspectRatio(contentMode: .fit)
                                     .frame(width:100, height:100)
                             }
+                            .navigationTitle("Home")
+                            .navigationBarHidden(true)
                             
                             Text("Court Cases")
                                 .foregroundColor(Color.white)
@@ -53,7 +56,9 @@ struct ContentView: View {
                                     .aspectRatio(contentMode: .fit)
                                     .frame(width:100, height:100)
                             }
-                                                        Text("Representatives")
+                            .navigationTitle("Home")
+                            .navigationBarHidden(true)      
+                            Text("Representatives")
                                 .foregroundColor(Color.white)
                                 .font(Font.custom("PlayfairDisplay-Regular", size:20))
                                 
@@ -71,7 +76,9 @@ struct ContentView: View {
                                     .aspectRatio(contentMode: .fit)
                                     .frame(width:100, height:100)
                             }
-                                                        Text("About us")
+                            .navigationTitle("Home")
+                            .navigationBarHidden(true)
+                            Text("About us")
                                 .foregroundColor(Color.white)
                                 .font(Font.custom("PlayfairDisplay-Regular", size:20))
                                 
@@ -82,26 +89,30 @@ struct ContentView: View {
                     //Presidential election + resources button
                     HStack{
                         VStack{
-                         NavigationLink(destination: Representatives()){
+                         NavigationLink(destination: election()){
                              Image("vote")
                                  .resizable()
                                  .aspectRatio(contentMode: .fit)
                                  .frame(width:100, height:100)
                          }
-                                                     Text("Election")
+                         .navigationTitle("Home")
+                         .navigationBarHidden(true)
+                            Text("Election")
                              .foregroundColor(Color.white)
                              .font(Font.custom("PlayfairDisplay-Regular", size:20))
                              
                      }
                         .offset(x:-110,y:150)
                         VStack{
-                            NavigationLink(destination: Representatives()){
+                            NavigationLink(destination: resources()){
                                 Image("news")
                                     .resizable()
                                     .aspectRatio(contentMode: .fit)
                                     .frame(width:100, height:100)
                             }
-                                                        Text("Resources")
+                            .navigationTitle("Home")
+                            .navigationBarHidden(true)
+                            Text("Resources")
                                 .foregroundColor(Color.white)
                                 .font(Font.custom("PlayfairDisplay-Regular", size:20))
                                 
@@ -112,6 +123,7 @@ struct ContentView: View {
                 }
             }
         }
+        
     }
 }
 
