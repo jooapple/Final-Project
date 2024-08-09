@@ -21,7 +21,7 @@ struct Representatives: View {
                     .font(Font.custom("PlayfairDisplay-Bold", size:40))
                     .foregroundColor(Color.white)
                     .multilineTextAlignment(.center)
-                    .offset(y:-220)
+                    
                 //Text field to enter zip code
                 TextField("Enter your Zip Code here", text: $text)
                     .foregroundColor(Color.white)
@@ -30,22 +30,17 @@ struct Representatives: View {
                     .background(Color(red:101/256, green:139/256, blue:188/256))
                     .cornerRadius(10)
                     .padding(.all, 20.0)
-                    .offset(y:-150)
-                Button("Submit") {
-                    if let representative = reps[text] {
-                        rep = representative
-                    }
-                    else { rep = "No representative found for this zip code"
-                    }
-                }
+                Link("Submit", destination: URL(string: "https://ziplook.house.gov/htbin/findrep_house?ZIP=\(text)")!)
                 .frame(width: 200, height:70)
                 .background(Color(red:125/256, green: 0/256, blue: 17/256))
                 .cornerRadius(15)
                 .foregroundColor(Color.white)
-                .offset(y:-160)
-                Text("\(rep)")
-                    .foregroundColor(Color.white)
-                    .font(Font.custom("PlayfairDisplay-Regular", size:20))
+                Image("usa")
+                  .resizable()
+                  .aspectRatio(contentMode: .fill)
+                  .frame(height: 220)
+                  .frame(maxWidth: .infinity)
+                  .offset(y:140)
             }
         }
     }
@@ -53,4 +48,6 @@ struct Representatives: View {
 }
 #Preview {
     Representatives()
+        .toolbarBackground(
+            .hidden, for: .navigationBar)
 }

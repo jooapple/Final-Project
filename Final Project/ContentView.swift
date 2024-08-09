@@ -10,6 +10,7 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         NavigationStack{
+            
             ZStack {
                 Color(red:12/256, green:36/256, blue:77/256)
                     .ignoresSafeArea()

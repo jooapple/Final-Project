@@ -77,4 +77,6 @@ struct election: View {
 
 #Preview {
     election()
+        .toolbarBackground(
+            .hidden, for: .navigationBar)
 }

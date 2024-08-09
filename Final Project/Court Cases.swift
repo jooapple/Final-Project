@@ -103,4 +103,6 @@ struct Court_Cases: View {
 }
 #Preview {
     Court_Cases()
+        .toolbarBackground(
+            .hidden, for: .navigationBar)
 }

@@ -131,4 +131,6 @@ struct About: View {
 }
 #Preview {
     About()
+        .toolbarBackground(
+            .hidden, for: .navigationBar)
 }
