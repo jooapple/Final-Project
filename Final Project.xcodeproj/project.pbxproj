@@ -20,6 +20,7 @@
 		BD530F162C540D52004BBABC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD530F152C540D52004BBABC /* Assets.xcassets */; };
 		BD530F192C540D52004BBABC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD530F182C540D52004BBABC /* Preview Assets.xcassets */; };
 		BD5963E52C5BFB2D00B50C1D /* election.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD5963E42C5BFB2D00B50C1D /* election.swift */; };
+		BD5963E62C5C0A3900B50C1D /* PlayfairDisplay-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BD0E416A2C5A90A20041086B /* PlayfairDisplay-Regular.ttf */; };
 		BDAA75AC2C596AA7003C4BAE /* About.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDAA75AB2C596AA7003C4BAE /* About.swift */; };
 /* End PBXBuildFile section */
 
@@ -159,6 +160,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BD5963E62C5C0A3900B50C1D /* PlayfairDisplay-Regular.ttf in Resources */,
 				BD0E41702C5AF1900041086B /* PlayfairDisplay-Bold.ttf in Resources */,
 				BD530F192C540D52004BBABC /* Preview Assets.xcassets in Resources */,
 				BD530F162C540D52004BBABC /* Assets.xcassets in Resources */,
